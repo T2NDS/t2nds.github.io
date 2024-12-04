@@ -1,23 +1,23 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: T2NDS
+subtitle: The Second Server Network
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  At Second Server Network, we aim to create a welcoming gaming community for adults interested in various game genres. We prioritize maintaining a positive atmosphere free from negativity.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://t2nds.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-    - text: Home
+    - text: Landing
       url: /
-    - text: About
-      url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
+    - text: Discord
+      url: https://discord.gg/FEzMPT4
+    - text: Servers
+      url: /servers
+    - text: Staff
+      url: /staff
+    - text: Donate
+      url : /donor
     - text: Contact
       url : /contact
 
@@ -25,28 +25,13 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author: T2NDS
+author_bio: At Second Server Network, we aim to create a welcoming gaming community for adults interested in various game genres. We prioritize maintaining a positive atmosphere free from negativity.
+author_email: "t2nds.net@aol.com"
+author_location: United States of America
+author_website_url: "https://t2nds.github.io"
+typewrite-text: At Second Server Network, we aim to create a welcoming gaming community for adults interested in various game genres. We prioritize maintaining a positive atmosphere free from negativity.
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
-
-# Experiences
-author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: true
 
 # Education
 author_education_details:
@@ -71,35 +56,13 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: xplor4r
-github_username:  sujaykundu777
-instagram_username: xplor4r
+github_username:  T2NDS
 # facebook_username: johndoe
-# linkedin_username: johndoe
-# behance_username: johndoe
-# medium_username: johndoe
-# telegram_username: johndoe
-# dribbble_username: johndoe
-# flickr_username: johndoe
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
 # disqus_shortname: sujay-kundu
 # hyvor_talk_website_id: 476
-
-# wakatime username (coding activity)
-wakatime_username: sujaykundu777
-
-# mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
-
-# contact form - (choose formspress or getform)
-# getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
-
-# releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
-olvy_widget_type: sidebar
 
 # syntax highlighter
 markdown: kramdown
@@ -107,8 +70,6 @@ highlighter: rouge
 permalink: pretty
 
 # Choose what to show ( can be true or false)
-show_author_work_experiences: true
-show_author_education_details: true
 show_author_project_details: true
 
 # pagination of posts
