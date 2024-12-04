@@ -11,7 +11,7 @@ urls:
     - text: Landing
       url: /
     - text: Discord
-      url: https://discord.gg/FEzMPT4
+      url: /discord
     - text: Servers
       url: /servers
     - text: Staff
